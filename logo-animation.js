@@ -3,5 +3,8 @@ $( document ).ready(function() {
 		$("div .brand img").animate({outlineWidth: "10px"});
 		$("div .brand img").animate({outlineWidth: "1px"});
 	});
+	$( "div .brand img" ).on("hover", function(){
+		$("div .brand img").addclass("animated wobble");
+	});
 	
 });
