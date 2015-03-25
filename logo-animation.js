@@ -8,7 +8,7 @@ $( document ).ready(function() {
 	});
 	
 	$( "div .brand img" ).on("mouseleave", function(){
-		$("div .brand img").removeclass("animated wobble");
+		$("div .brand img").removeClass("animated wobble");
 	});
 	
 });
